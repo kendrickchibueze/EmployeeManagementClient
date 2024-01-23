@@ -4,7 +4,7 @@ import employeeService from "../services/EmployeeService";
 
 
 
-
+//fetch all employees
 const ListEmployeeComponent = () => {
     const [employeeArray, setEmployeeArray]  = useState([])
     useEffect(()=>{
